@@ -65,7 +65,7 @@ public class FormFragment extends Fragment {
                     @Override
                     public void onDialogTimeSet(int reference, int hourOfDay, int minute) {
                         timeText.setText("" +( hourOfDay - 12) + ":" + ( minute > 0 ? minute: "00"  ));
-                        dataMap.put("time", hourOfDay+ ":" + minute);
+                        dataMap.put("time",( hourOfDay - 12) + ":" + ( minute > 0 ? minute: "00"  ));
                     }
                 })
                 .setStyleResId(R.style.BetterPickersDialogFragment);

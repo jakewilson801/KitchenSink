@@ -64,7 +64,7 @@ public class FormFragment extends Fragment {
                 .setFragmentManager(mContext.getSupportFragmentManager()).addTimePickerDialogHandler(new TimePickerDialogFragment.TimePickerDialogHandler() {
                     @Override
                     public void onDialogTimeSet(int reference, int hourOfDay, int minute) {
-                        timeText.setText("" + hourOfDay + ":" + minute);
+                        timeText.setText("" +( hourOfDay - 12) + ":" + ( minute > 0 ? minute: "00"  ));
                         dataMap.put("time", hourOfDay+ ":" + minute);
                     }
                 })

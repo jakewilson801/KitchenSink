@@ -30,7 +30,7 @@ import com.example.jakewilson.kitchensink.fragments.WeatherFragment;
 import com.example.jakewilson.kitchensink.interfaces.OnFragmentInteractionListener;
 
 
-public class MyActivity extends android.support.v4.app.FragmentActivity implements OnFragmentInteractionListener,TimePickerDialogFragment.TimePickerDialogHandler {
+public class MyActivity extends android.support.v4.app.FragmentActivity implements OnFragmentInteractionListener{
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -98,12 +98,6 @@ public class MyActivity extends android.support.v4.app.FragmentActivity implemen
         pageOneFragment.showResults(id);
 
     }
-
-    @Override
-    public void onDialogTimeSet(int i, int i2, int i3) {
-        Toast.makeText(this, i + " " +i2+ " " + i3,Toast.LENGTH_SHORT).show();
-    }
-
 
     /**
      * A {@link FragmentPagerAdapter} that returns a fragment corresponding to

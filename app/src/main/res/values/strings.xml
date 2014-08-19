@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kitchen Sink</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="page_one_welcome">Welcome to page one! Swipe left or right!</string>
+    <string name="date">Date:</string>
+    <string name="select_date">Select Date</string>
+    <string name="name">Name:</string>
+    <string name="time">Time:</string>
+    <string name="select_time">Select Time</string>
+    <string name="favorite_food">Favorite Food:</string>
+    <string name="favorite_number">Favorite Number:</string>
+    <string name="select_number">Select Number</string>
+    <string name="submit">Submit</string>
+    <string-array name="items">
+        <item><string name="item1">Section 1</string></item>
+        <item><string name="item2">Section 2</string></item>
+        <item><string name="item3">Section 3</string></item>
+    </string-array>
+
+    <string-array name="foods">
+        <item><string name="biscuits">Biscuits</string></item>
+        <item><string name="chicken">Chicken</string></item>
+        <item><string name="cookies">Cookies</string></item>
+        <item><string name="cake">Cake</string></item>
+        <item><string name="pizza">Pizza</string></item>
+    </string-array>
+    <string name="current">Current</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+</resources>
